@@ -5,7 +5,7 @@ Evaluación estadística del parámetro de temperatura inicial ($T_0$) del algor
 ## Diseño Experimental
 
 * **Enfoque:** Diseño Factorial Completo de dos factores (9 puntos de diseño, 10 réplicas por punto, 90 ejecuciones totales).
-* **Factor Manipulado ($T_0$):** Tres niveles derivados de una semilla fija ($r \sim U(0,1)$): Bajo ($908.37$), Medio ($2378.37$) y Alto ($3848.37$).
+* **Factor Manipulado ($T_0$):** Tres niveles derivados de una semilla fija (Bajo ($908.37$), Medio ($2378.37$) y Alto ($3848.37$).
 * **Factor de Bloqueo ($n$):** Tres tamaños de instancia con $n \in \{5, 10, 15\}$ ciudades.
 * **Análisis Estadístico:** ANOVA Tipo II ($\alpha = 0.05$) y estimación de medianas con intervalos de confianza del 95% mediante Bootstrap no paramétrico (2,000 remuestreos).
 
